@@ -70,7 +70,7 @@ function boardwalk_post_classes( $classes ) {
 		$featured_image = boardwalk_get_image( get_the_ID(), 'boardwalk-featured-image' );
 	}
 
-	if ( ( post_password_required() && has_post_thumbnail() ) || ( $featured_image && ! is_single() ) ) {
+	if ( ( post_password_required() && has_post_thumbnail() ) || ( $featured_image && ! is_singular() ) ) {
 		$classes[] = 'has-post-thumbnail';
 	}
 

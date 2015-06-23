@@ -1,18 +1,22 @@
-# Translation of Boardwalk in Turkish
+# Translation of Boardwalk in Persian
 # This file is distributed under the same license as the Boardwalk package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-02-20 05:56:55+0000\n"
+"PO-Revision-Date: 2015-04-30 06:51:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Boardwalk\n"
 
+#: inc/customizer.php:76
+msgid "Only use featured images on blog index"
+msgstr ""
+
 #: inc/template-tags.php:177
 msgid "Archives: %s"
-msgstr "Arşivler: %s"
+msgstr "بایگانی‌ها: %s"
 
 #. translators: 1: Taxonomy singular name, 2: Current taxonomy term
 #: inc/template-tags.php:181
@@ -22,27 +26,27 @@ msgstr "%1$s: %2$s"
 #: inc/template-tags.php:167
 msgctxt "post format archive title"
 msgid "Quotes"
-msgstr "Alıntılar"
+msgstr "گفتاوردها"
 
 #: inc/template-tags.php:169
 msgctxt "post format archive title"
 msgid "Links"
-msgstr "Bağlantılar"
+msgstr "پیوندها"
 
 #: inc/template-tags.php:171
 msgctxt "post format archive title"
 msgid "Statuses"
-msgstr "Durumlar"
+msgstr "وضعیت‌ها"
 
 #: inc/template-tags.php:173
 msgctxt "post format archive title"
 msgid "Audio"
-msgstr "Ses"
+msgstr "صوت"
 
 #: inc/template-tags.php:175
 msgctxt "post format archive title"
 msgid "Chats"
-msgstr "Sohbetler"
+msgstr "گپ‌ها"
 
 #: inc/template-tags.php:157
 msgctxt "daily archives date format"
@@ -52,26 +56,26 @@ msgstr "j F Y"
 #: inc/template-tags.php:159
 msgctxt "post format archive title"
 msgid "Asides"
-msgstr "Yan sütun"
+msgstr "حاشیه‌ها"
 
 #: inc/template-tags.php:161
 msgctxt "post format archive title"
 msgid "Galleries"
-msgstr "Galeriler"
+msgstr "گالری‌‌ها"
 
 #: inc/template-tags.php:163
 msgctxt "post format archive title"
 msgid "Images"
-msgstr "Görseller"
+msgstr "تصویرها"
 
 #: inc/template-tags.php:165
 msgctxt "post format archive title"
 msgid "Videos"
-msgstr "Videolar"
+msgstr "فیلم‌ها"
 
 #: inc/template-tags.php:149
 msgid "Tag: %s"
-msgstr "Etiket: %s"
+msgstr "برچسب‌ها: %s"
 
 #: inc/customizer.php:41
 msgid "Show author bio on single posts."
@@ -87,207 +91,206 @@ msgstr ""
 
 #: inc/template-tags.php:147
 msgid "Category: %s"
-msgstr "Kategori: %s"
+msgstr "دسته: %s"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/boardwalk/style.css
 msgid "A minimalistic theme with horizontal scrolling."
-msgstr "Yatay kaydırmalı minimalist bir tema."
+msgstr ""
 
 #: sidebar.php:17
 msgid "Menu"
-msgstr "Menü"
+msgstr "گزینگان"
 
 #: search.php:16
 msgid "Search Results for: %s"
-msgstr "Arama sonuçları: %s"
+msgstr "نتایج جست‌وجو برای: %s"
 
 #: inc/template-tags.php:126
 msgid "% Comments"
-msgstr "% Yorum"
+msgstr "% دیدگاه"
 
 #: inc/template-tags.php:126
 msgid "1 Comment"
-msgstr "1 Yorum"
+msgstr "۱ دیدگاه"
 
 #: inc/template-tags.php:119
 msgctxt "post author"
 msgid "By %s"
-msgstr ""
+msgstr "به دست %s"
 
 #: inc/template-tags.php:126
 msgid "Leave a comment"
-msgstr "Yorum bırakın"
+msgstr "بیان دیدگاه"
 
 #: inc/template-tags.php:115
 msgid "Tagged %1$s"
-msgstr "%1$s etiketlendi"
+msgstr "برچسب‌خورده با %1$s"
 
 #: inc/template-tags.php:109
 msgid "Posted in %1$s"
-msgstr "%1$s içinde yayınlandı"
+msgstr "فرستاده‌شده در %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:107 inc/template-tags.php:113
 msgid ", "
-msgstr ", "
+msgstr "، "
 
 #: inc/template-tags.php:104
 msgid "All %s posts"
-msgstr "Tüm %s yazıları"
+msgstr "همهٔ %s نوشته"
 
 #: inc/template-tags.php:56
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
 
 #: inc/template-tags.php:57
 msgctxt "Next post link"
 msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:86
 msgid "Featured"
-msgstr "Öne Çıkan"
+msgstr "ویژه"
 
 #: inc/template-tags.php:52
 msgid "Post navigation"
-msgstr "Yazı dolaşımı"
+msgstr "ناوبری نوشته"
 
 #: inc/template-tags.php:29
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Yeni yazılar <span class=\"meta-nav\">&rarr;</span>"
+msgstr "نوشته‌های تازه‌تر <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Eski yazılar"
+msgstr "<span class=\"meta-nav\">&larr;</span> نوشته‌های پیشین"
 
 #: inc/template-tags.php:21
 msgid "Posts navigation"
-msgstr "Yazı dolaşımı"
+msgstr "ناوبری نوشته‌ها"
 
 #: inc/customizer.php:30
 msgid "Add a dark filter to featured images"
 msgstr ""
 
-#: inc/extras.php:103
+#: inc/extras.php:107
 msgid "Page %s"
-msgstr "Sayfa %s"
+msgstr "صفحهٔ %s"
 
 #: header.php:33
 msgid "Toggle Sidebar"
-msgstr ""
+msgstr "تغییر وضعیت نوار کناری"
 
 #: inc/customizer.php:20
 msgid "Theme"
-msgstr "Tema"
+msgstr "پوشته"
 
 #. translators: If there are characters in your language that are not supported
 #. * by Source Code Pro, translate this to 'off'. Do not translate into your
 #. own language.
-#: functions.php:146
+#: functions.php:153
 msgctxt "Source Code Pro font: on or off"
 msgid "on"
-msgstr "on"
+msgstr "روشن"
 
 #: header.php:22
 msgid "Skip to content"
-msgstr "İçeriğe geç"
+msgstr "پرش به محتوا"
 
 #. translators: If there are characters in your language that are not supported
 #. * by Merriweather, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:112
+#: functions.php:119
 msgctxt "Merriweather font: on or off"
 msgid "on"
-msgstr "açık"
+msgstr "روشن"
 
 #. translators: If there are characters in your language that are not supported
 #. * by Lato, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:107
+#: functions.php:114
 msgctxt "Lato font: on or off"
 msgid "on"
-msgstr "off"
+msgstr "روشن"
 
-#: functions.php:85
+#: functions.php:92
 msgid "Sidebar"
-msgstr "Yan Menü"
+msgstr "ستون کناری"
 
 #: functions.php:56
 msgid "Social Menu"
-msgstr "Sosyal Menü"
+msgstr "گزینگان اجتماعی"
 
 #: functions.php:55
 msgid "Primary Menu"
-msgstr "Birincil menü"
+msgstr "گزینگان اصلی"
 
 #: footer.php:31
 msgid "Theme: %1$s by %2$s."
-msgstr "Tema: %2$s tarafından %1$s."
+msgstr "پوسته: %1$s کاری از %2$s."
 
 #: footer.php:29
 msgid "Proudly powered by %s"
-msgstr "%s gururla sunar"
+msgstr "با افتخار، نیرو گرفته از %s"
 
 #: footer.php:29
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"
 
-#: content.php:23
+#: content.php:28
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Okumaya devam et <span class=\"meta-nav\">&rarr;</span>"
+msgstr "به خواندن ادامه دهید <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-page.php:32 inc/template-tags.php:130
 msgid "Edit"
-msgstr "Düzenle"
+msgstr "ویرایش"
 
 #: content-page.php:26 content-single.php:29
 msgid "Page"
-msgstr "Sayfa"
+msgstr "صفحه"
 
 #: content-page.php:22 content-single.php:25
 msgid "Pages:"
-msgstr "Sayfalar:"
+msgstr "صفحه‌ها:"
 
 #: content-none.php:28
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Aradığınız sayfa bulunamadı. Belki arama kutusu aradığınızı bulma konusunda yardımcı olabilir."
+msgstr "به نظر می‌آید ما نمی‌توانیم آنچه به دنبالش هستید بیابیم. احتمالا جست‌وجو می‌تواند کمک کند."
 
 #: content-none.php:23
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Üzgünüz fakat aradığınız kriterler ile örtüşen sonuç bulunamadı. Lütfen başka kriterler ile tekrar deneyin."
+msgstr "بدبختانه جستجوی شما نتیجه‌ای در بر نداشت. با واژگانی دیگر جستجو کنید."
 
 #: content-none.php:19
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "İlk yazınızı yayınlamaya hazır mısınız? <a href=\"%1$s\">Buradan başlayın</a>."
+msgstr "آمادهٔ انتشار نخستین نوشتهٔ خود هستید؟ <a href=\"%1$s\">از اینجا بیآغازید</a>."
 
 #: content-none.php:13
 msgid "Nothing Found"
-msgstr "Bulunamadı"
+msgstr "چیزی پیدا نشد"
 
 #: comments.php:63
 msgid "Comments are closed."
-msgstr "Yorumlar kapalı."
+msgstr "دیدگاه‌ها بسته شده‌اند."
 
 #: comments.php:50
 msgid "Newer Comments &rarr;"
-msgstr "Yeni yorumlar &arr;"
+msgstr "دیدگاه‌های تازه‌تر &rarr;"
 
 #: comments.php:49
 msgid "&larr; Older Comments"
-msgstr "&arr; Eski yorumlar"
+msgstr "&larr; دیدگاه‌های پیشین"
 
 #: comments.php:48
 msgid "Comment navigation"
-msgstr "Yorum dolaşımı"
+msgstr "ناوبری دیدگاه"
 
 #: comments.php:30
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "&ldquo;%2$s&rdquo; üzerine bir yorum"
-msgstr[1] "&ldquo;%2$s&rdquo; üzerine %1$s yorum"
+msgstr[0] "%1$s نظر برای &ldquo;%2$s&rdquo;"
 
 #: author-bio.php:10
 msgid "Published by %s"
@@ -295,11 +298,11 @@ msgstr ""
 
 #: author-bio.php:27
 msgid "View all posts by %s"
-msgstr "%s tarafından yazılmış tüm yazıları görüntüle"
+msgstr "مشاهدهٔ همهٔ نوشته‌ها بر اساس %s"
 
 #: inc/template-tags.php:183
 msgid "Archives"
-msgstr "Arşivler"
+msgstr "بایگانی"
 
 #: inc/template-tags.php:153
 msgctxt "yearly archives date format"
@@ -308,7 +311,7 @@ msgstr "Y"
 
 #: inc/template-tags.php:153
 msgid "Year: %s"
-msgstr "Yıl: %s"
+msgstr "سال: %s"
 
 #: inc/template-tags.php:155
 msgctxt "monthly archives date format"
@@ -317,29 +320,29 @@ msgstr "F Y"
 
 #: inc/template-tags.php:155
 msgid "Month: %s"
-msgstr "Ay: %s"
+msgstr "ماه: %s"
 
 #: inc/template-tags.php:157
 msgid "Day: %s"
-msgstr "Gün: %s"
+msgstr "روز: %s"
 
 #: inc/template-tags.php:151
 msgid "Author: %s"
-msgstr "Yazar: %s"
+msgstr "نویسنده: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:44
 msgid "Try looking in the monthly archives. %1$s"
-msgstr "Aylık arşivlere bakmayı deneyin. %1$s"
+msgstr "بد نیست نگاهی به بایگانی ماهانه بیندازید. %1$s"
 
 #: 404.php:27
 msgid "Most Used Categories"
-msgstr "En çok Kullanılan Kategoriler"
+msgstr "پراستفاده‌ترین دسته‌ها"
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "Burada hiçbir şeyin bulunmadığı görülüyor. Belki alttaki bağlantılardan birini veya bir arama yapmayı denemelisin?"
+msgstr "به نظر می‌رسد چیزی در این مکان نیست. شاید بخواهید یکی از پیوندهای زیر یا جست‌وجو را آزمایش کنید."
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Üzgünüz! Bu sayfa bulunamıyor."
+msgstr "اوه! امکان یافتن صفحه نیست."

@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Boardwalk 1.0.3\n"
+"Project-Id-Version: Boardwalk 1.0.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/boardwalk\n"
-"POT-Creation-Date: 2015-02-25 03:53:19+00:00\n"
+"POT-Creation-Date: 2015-04-10 03:35:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: content.php:23
+#: content.php:28
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
@@ -119,14 +119,14 @@ msgstr ""
 msgid "Social Menu"
 msgstr ""
 
-#: functions.php:85
+#: functions.php:92
 msgid "Sidebar"
 msgstr ""
 
 #. translators: If there are characters in your language that are not supported
 #. 	 * by Lato, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:107
+#: functions.php:114
 msgctxt "Lato font: on or off"
 msgid "on"
 msgstr ""
@@ -134,7 +134,7 @@ msgstr ""
 #. translators: If there are characters in your language that are not supported
 #. 	 * by Merriweather, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:112
+#: functions.php:119
 msgctxt "Merriweather font: on or off"
 msgid "on"
 msgstr ""
@@ -142,7 +142,7 @@ msgstr ""
 #. translators: If there are characters in your language that are not supported
 #. 	 * by Source Code Pro, translate this to 'off'. Do not translate into your
 #. own language.
-#: functions.php:146
+#: functions.php:153
 msgctxt "Source Code Pro font: on or off"
 msgid "on"
 msgstr ""
@@ -175,7 +175,11 @@ msgstr ""
 msgid "Unfixed header when scrolling down."
 msgstr ""
 
-#: inc/extras.php:103
+#: inc/customizer.php:76
+msgid "Only use featured images on blog index"
+msgstr ""
+
+#: inc/extras.php:107
 msgid "Page %s"
 msgstr ""
 

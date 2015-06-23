@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Boardwalk\n"
 
+#: inc/customizer.php:76
+msgid "Only use featured images on blog index"
+msgstr ""
+
 #: inc/template-tags.php:177
 msgid "Archives: %s"
 msgstr "Arkivoj: %s"
@@ -170,7 +174,7 @@ msgstr "Navigado tra afiŝoj"
 msgid "Add a dark filter to featured images"
 msgstr "Aldonu malhelan filtron al elstarigitaj bildoj"
 
-#: inc/extras.php:103
+#: inc/extras.php:107
 msgid "Page %s"
 msgstr "Paĝo %s"
 
@@ -185,7 +189,7 @@ msgstr "Etoso"
 #. translators: If there are characters in your language that are not supported
 #. * by Source Code Pro, translate this to 'off'. Do not translate into your
 #. own language.
-#: functions.php:146
+#: functions.php:153
 msgctxt "Source Code Pro font: on or off"
 msgid "on"
 msgstr "on"
@@ -197,7 +201,7 @@ msgstr "Iri rekte al enhavo"
 #. translators: If there are characters in your language that are not supported
 #. * by Merriweather, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:112
+#: functions.php:119
 msgctxt "Merriweather font: on or off"
 msgid "on"
 msgstr "off"
@@ -205,12 +209,12 @@ msgstr "off"
 #. translators: If there are characters in your language that are not supported
 #. * by Lato, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:107
+#: functions.php:114
 msgctxt "Lato font: on or off"
 msgid "on"
 msgstr "off"
 
-#: functions.php:85
+#: functions.php:92
 msgid "Sidebar"
 msgstr "Flankpanelo"
 
@@ -234,7 +238,7 @@ msgstr "Fiere kreata de %s"
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"
 
-#: content.php:23
+#: content.php:28
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Legi plu <span class=\"meta-nav\">&rarr;</span>"
 

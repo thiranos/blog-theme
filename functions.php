@@ -71,6 +71,13 @@ function boardwalk_setup() {
 	add_theme_support( 'post-formats', array(
 		'aside', 'image', 'video', 'quote', 'link', 'chat', 'gallery',
 	) );
+
+	/*
+	 * This theme styles the visual editor to resemble the theme style.
+	 */
+	add_editor_style( array(
+		'editor-style.css',
+	) );
 }
 endif; // boardwalk_setup
 add_action( 'after_setup_theme', 'boardwalk_setup' );
@@ -167,7 +174,7 @@ function boardwalk_scripts() {
 
 	wp_enqueue_style( 'boardwalk-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'boardwalk-pace', get_template_directory_uri() . '/js/pace.js', array( 'jquery' ), '0.5.6', true );
+	wp_enqueue_script( 'boardwalk-pace', get_template_directory_uri() . '/js/pace.js', array( 'jquery' ), '1.0.0', true );
 
 	wp_enqueue_script( 'boardwalk-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 

@@ -49,6 +49,12 @@ You can add links to a multitude of social services in the footer by following t
 
 == Changelog ==
 
+= 1.0.5 - May 06 2015 =
+* Update pace.js
+
+= 1.0.4 - Apr 08 2015 =
+* Fixed language filenames
+
 = 1.0.3 - Mar 13 2015 =
 * Add Featured Image fallback and theme option to opt-out
 

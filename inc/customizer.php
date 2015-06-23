@@ -73,7 +73,7 @@ function boardwalk_customize_register( $wp_customize ) {
 		'sanitize_callback' => 'boardwalk_sanitize_checkbox',
 	) );
 	$wp_customize->add_control( 'boardwalk_no_featured_image', array(
-		'label'             => __( 'Only use featured images on index', 'boardwalk' ),
+		'label'             => __( 'Only use featured images on blog index', 'boardwalk' ),
 		'section'           => 'boardwalk_theme_options',
 		'priority'          => 50,
 		'type'              => 'checkbox',

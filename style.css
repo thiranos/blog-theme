@@ -4,7 +4,7 @@ Theme URI: https://wordpress.com/themes/boardwalk/
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 Description: A minimalistic theme with horizontal scrolling.
-Version: 1.0.3
+Version: 1.0.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boardwalk
@@ -596,10 +596,12 @@ input[type="submit"].search-submit {
 	float: left;
 	margin-top: 24px;
 	margin-bottom: 24px;
+	max-width: 100%;
 }
 .site-title {
 	float: left;
 	padding-right: 12px;
+	max-width: 100%;
 	margin: 0 auto;
 	color: #000;
 	font-size: 1.375em;
@@ -2678,6 +2680,9 @@ div#jp-relatedposts:before {
 .hentry .pd-rating {
 	line-height: 1;
 }
+body > a[class*="pin_it_button"] {
+	display: none !important;
+}
 
 /*--------------------------------------------------------------
 15.6 Site Logo
@@ -2895,13 +2900,21 @@ hr,
 .pace-done .site {
 	opacity: 1;
 }
+.pace {
+	-webkit-pointer-events: none;
+	pointer-events:         none;
+	-webkit-user-select: none;
+	-moz-user-select:    none;
+	user-select:         none;
+}
 .pace .pace-progress {
 	background: #06973b;
 	position: fixed;
+	right: 100%;
 	z-index: 99999;
 	top: 0;
-	left: 0;
 	height: 4px;
+	width: 100%;
 }
 .admin-bar .pace .pace-progress {
 	top: 32px;
